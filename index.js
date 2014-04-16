@@ -9,9 +9,11 @@ var source = 'wheel';
 var plugin = function(omniscroll,options) {
 
   var settings = {
-    wheelFactor: 4,
+    wheelFactor: 1,
     preventDefault: true
   };
+
+  var delta = 0;
 
   objectility.extendOwn(settings,options);
 
@@ -21,7 +23,7 @@ var plugin = function(omniscroll,options) {
       e.preventDefault();
     }
 
-    var delta = (e.deltaY / Math.abs(e.deltaY)) * settings.wheelFactor;
+    delta = e.deltaY * settings.wheelFactor;
 
     omniscroll.consume(delta,source);
   }
