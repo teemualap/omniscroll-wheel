@@ -1,5 +1,5 @@
 var wheel = require('uniwheel');
-var objectility = require('../objectility');
+var objectility = require('objectility');
 
 //the name of your plugin
 var pluginName = 'omniscroll-wheel';
