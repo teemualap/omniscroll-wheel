@@ -1,0 +1,30 @@
+{
+  "name": "omniscroll-wheel",
+  "version": "0.0.1",
+  "description": "An omniscroll plugin for delta values coming from a WheelEvent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teemualap/omniscroll-wheel.git"
+  },
+  "keywords": [
+    "omniscroll",
+    "browserify",
+    "keyboard",
+    "scroll"
+  ],
+  "bugs": {
+    "url": "https://github.com/teemualap/omniscroll-wheel/issues"
+  },
+  "homepage": "https://github.com/teemualap/omniscroll-wheel",
+  "author": "Teemu Alapoikela",
+  "license": "MIT",
+  "dependencies": {
+    "omniscroll": "~0.1.0",
+    "objectility": "~0.0.1",
+    "uniwheel": "^0.1.2"
+  }
+}
