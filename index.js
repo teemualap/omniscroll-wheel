@@ -9,7 +9,7 @@ var source = 'wheel';
 var plugin = function(omniscroll,options) {
 
   var settings = {
-    wheelFactor: 2,
+    wheelFactor: 4,
     preventDefault: true
   };
 

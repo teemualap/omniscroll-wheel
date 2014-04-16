@@ -1,6 +1,6 @@
 {
   "name": "omniscroll-wheel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An omniscroll plugin for delta values coming from a WheelEvent.",
   "main": "index.js",
   "scripts": {
